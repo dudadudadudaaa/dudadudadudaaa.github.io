@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <title> +</title>
+    <link rel="stylesheet" href="_css/estilo.css">
+</head>
+
+<body style="background-color: black;">
+    <div id="interface">
+
+        <aside id="lateral">
+
+            <nav id="menu">
+                <ul type="disc">
+                    <h1>menu</h1>
+                    <li>
+                        <a href="index.html ">
+                            <z0>página inicial</z0>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="informacoes.html ">
+                            <z1>informações</z1>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="objetivo.html ">
+                            <z2>objetivo</z2>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="qualificacoes.html ">
+                            <z3>qualificações</z3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="formacao-academica.html ">
+                            <z4>formação acadêmica</z4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="idiomas.html ">
+                            <z5>idiomas</z5>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="+.html ">
+                            <z6>+</z6>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+        <section id="contro">
+
+            <img src="_imagens/sol.png" id="acender" width="50" height="50" />
+            <img src="_imagens/lua.png" id="escuro" width="50" height="50" />
+
+        </section>
+
+        <header id="cabecalho ">
+            <hgroup>
+                <h1 class="mais ">+</h1>
+                <h2 class="mai ">Só para curioses!</h2>
+                <br/>
+            </hgroup>
+
+            <figure>
+                <img src="_imagens/+.png ">
+            </figure>
+            <br/>
+        </header>
+
+        <section id="corpo ">
+            <hgroup>
+                <p>
+                    <h3 class="ma ">
+                        <c>Nasceu em Lambari - MG, onde morou por sete anos, depois dois anos em Cruzília - MG. Mora em São Paulo -SP há oito anos. Apaixonada pela natureza &#127809; e pelos animais &#128044;, principalmente gatos &#128571;&#128062;, mas
+                            tem sete calopsitas&#128035;, um peixe&#128031; e um cachorro&#128021; . Virginiana &#9805; com ascendente em Touro&#9801;,lua em Áries &#9800; e vênus em Escorpião &#9807;. Já fez natação &#127946;&#127995; e coral &#127926;,
+                            tentou balé&#129336;&#127995;, pintura &#127912; e violão &#127931;. Se fascina por arte. </c>
+                    </h3>
+                </p>
+            </hgroup>
+        </section>
+
+        <footer id="rodape ">
+            <p>&copy; 2021 by Eduarda Castro<br/> <a href="https://www.linkedin.com/in/maria-eduarda-andrade-de-castro-9a47411a4 " target="_blank ">Linkedin</a> |
+                <a href="https://www.instagram.com/duda.a.aa " target="_blank ">Instagram</a>
+        </footer>
+    </div>
+</body>
+
+<script scr="jquery-3.5.1.min.js "></script>
+
+<script>
+    $(document).ready(function() {
+
+        $("acender").click(function() {
+
+            $("body ").removeId("escuro ");
+            $("body ").addId("claro ");
+        });
+
+        $("escuro ").click(function() {
+            $("body ").removeId("claro ");
+            $("body ").addId("escuro ");
+        })
+    });
+</script>
+
+</html>

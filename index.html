@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <title> Contrate a Duda</title>
+    <link rel="stylesheet" href="_css/estilo.css">
+</head>
+
+<body style="background-color: black">
+    <div id="interface">
+        <meta name="viewport" content="width=decive-width">
+
+        <header id="cabecalho">
+
+            <hgroup>
+                <h1 class="principal">
+                    Maria Eduarda &#9733;. de Castro</br>
+
+                </h1>
+                <h2 class="princi">Venha me conhecer!</a>
+                </h2>
+                <br/>
+            </hgroup>
+
+            <figure>
+                <img src="_imagens/index.jpg" width="90" height="120" id="dudinha" />
+
+
+            </figure>
+            <br/>
+        </header>
+
+
+        <br/>
+        <nav id="principal">
+            <h1>
+                <a href="informacoes.html">
+                    <z1>informações</z1>
+                </a>
+            </h1>
+
+            <h1>
+                <a href="objetivo.html">
+                    <z2>objetivo</z2>
+                </a>
+            </h1>
+
+            <h1>
+                <a href="qualificacoes.html">
+                    <z3>qualificações</z3>
+                </a>
+            </h1>
+
+            <h1>
+                <a href="formacao-academica.html">
+                    <z4>formação acadêmica</z4>
+                </a>
+            </h1>
+
+            <h1>
+                <a href="idiomas.html">
+                    <z5>idiomas</z5>
+                </a>
+            </h1>
+
+            <h1>
+                <a href="+.html">
+                    <z6>+</z6>
+                </a>
+            </h1>
+        </nav>
+
+        <footer id="rodape">
+            <p>&copy; 2021 by Eduarda Castro<br/> <a href="https://www.linkedin.com/in/maria-eduarda-andrade-de-castro-9a47411a4" target="_blank">Linkedin</a> |
+                <a href="https://www.instagram.com/duda.a.aa" target="_blank">Instagram</a>
+        </footer>
+    </div>
+
+</body>
+
+<script type="text/javascript">
+    var foto = document.getElementById("dudinha");
+
+    foto.onmouseover = function() {
+        foto.classList.remove("foto_sem_mouse");
+        foto.classList.add("foto_com_mouse");
+    }
+
+    foto.onmouseout = function() {
+        foto.classList.remove("foto_com_mouse");
+        foto.classList.add("foto_sem_mouse");
+    }
+</script>
+
+</html>

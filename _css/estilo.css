@@ -1,0 +1,329 @@
+@charset "UTF-8";
+
+/* formatação do header*/
+
+header#cabecalho {
+    border-bottom: 1px rgba(0, 0, 0, 0.15) solid;
+    height: auto;
+}
+
+header#cabecalho h1 {
+    font-family: Helvetica;
+    font-size: 22pt;
+    text-align: auto;
+    text-indent: 25px
+}
+
+.principal {
+    color: rgb(245, 0, 204);
+    text-shadow: 2px 2px 2px black;
+}
+
+.informacoes {
+    color: purple;
+    text-shadow: 2px 2px 2px rgb(237, 0, 245);
+}
+
+.objetivo {
+    color: blue;
+    text-shadow: 2px 2px 2px aquamarine;
+}
+
+.qualificacoes {
+    color: green;
+    text-shadow: 2px 2px 2px greenyellow;
+}
+
+.formacao {
+    color: rgb(246, 230, 3);
+    text-shadow: 2px 2px 2px yellow;
+}
+
+.idiomas {
+    color: rgb(245, 160, 3);
+    text-shadow: 2px 2px 2px rgb(243, 198, 114);
+}
+
+.mais {
+    color: rgba(253, 0, 0, 0.835);
+    text-shadow: 2px 2px 2px rgb(248, 136, 136);
+}
+
+header#cabecalho h2 {
+    font-family: Helvetica;
+    font-size: 16pt;
+    text-align: auto;
+    text-indent: 25px
+}
+
+.princi {
+    color: rgb(245, 0, 204);
+    text-shadow: 2px 2px 2px black;
+}
+
+.informa {
+    color: purple;
+    text-shadow: 2px 2px 2px rgb(237, 0, 245);
+}
+
+.objet {
+    color: blue;
+    text-shadow: 2px 2px 2px aquamarine;
+}
+
+.qualifi {
+    color: green;
+    text-shadow: 2px 2px 2px greenyellow;
+}
+
+.forma {
+    color: rgb(246, 230, 3);
+    text-shadow: 2px 2px 2px yellow;
+}
+
+.idiom {
+    color: rgb(245, 160, 3);
+    text-shadow: 2px 2px 2px rgb(243, 198, 114);
+}
+
+.mai {
+    color: rgba(253, 0, 0, 0.835);
+    text-shadow: 2px 2px 2px rgb(248, 136, 136);
+}
+
+header#cabecalho figure {
+    text-align: center;
+}
+
+
+/* formatação da interface*/
+
+div#interface {
+    width: auto;
+    background-color: white;
+    margin: 3px 3px 3px 3px;
+    box-shadow: 2px 2px 2px 2px white;
+    padding: 3px 3px 3px 3px;
+}
+
+
+/* formatação do menu, que é nav dentro de aside*/
+
+aside#lateral {
+    display: block;
+    width: auto;
+    float: right;
+}
+
+nav#menu {
+    display: block;
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: auto;
+    left: auto;
+}
+
+nav#menu li {
+    display: inline-block;
+    font-family: Helvetica;
+    background-color: black;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+
+nav#menu li:hover {
+    background-color: white;
+}
+
+nav#menu h1 {
+    display: none;
+}
+
+nav#menu a {
+    text-decoration: none;
+}
+
+nav#menu z0 {
+    color: rgb(245, 0, 204);
+    text-shadow: 2px 2px 2px black;
+}
+
+nav#menu z1 {
+    color: purple;
+    text-shadow: 2px 2px 2px black;
+}
+
+nav#menu z2 {
+    color: blue;
+    text-shadow: 2px 2px 2px black;
+}
+
+nav#menu z3 {
+    color: green;
+    text-shadow: 2px 2px 2px black;
+}
+
+nav#menu z4 {
+    color: rgb(246, 230, 3);
+    text-shadow: 2px 2px 2px black;
+}
+
+nav#menu z5 {
+    color: rgb(245, 160, 3);
+    text-shadow: 2px 2px 2px black;
+}
+
+nav#menu z6 {
+    color: rgba(253, 0, 0, 0.835);
+    text-shadow: 2px 2px 2px black;
+}
+
+
+/* formatação da página inicial*/
+
+nav#principal a {
+    text-decoration: none;
+}
+
+nav#principal h1 {
+    font-family: Helvetica;
+    font-size: 22pt;
+    text-align: auto;
+    text-indent: 25px;
+}
+
+nav#principal z1 {
+    color: purple;
+    text-shadow: 2px 2px 2px rgb(237, 0, 245);
+}
+
+nav#principal z2 {
+    color: blue;
+    text-shadow: 2px 2px 2px aquamarine;
+}
+
+nav#principal z3 {
+    color: green;
+    text-shadow: 2px 2px 2px greenyellow;
+}
+
+nav#principal z4 {
+    color: rgb(246, 230, 3);
+    text-shadow: 2px 2px 2px yellow;
+}
+
+nav#principal z5 {
+    color: rgb(245, 160, 3);
+    text-shadow: 2px 2px 2px rgb(243, 198, 114);
+}
+
+nav#principal z6 {
+    color: rgba(253, 0, 0, 0.835);
+    text-shadow: 2px 2px 2px rgb(248, 136, 136);
+}
+
+.foto_com_mouse {
+    width: 290px;
+    height: 320px;
+    transition: 0.8s;
+}
+
+.foto_sem_mouse {
+    width: 90px;
+    height: 120px;
+    transition: 0.8s;
+}
+
+
+/*formatação do modo claro/ escuro*/
+
+section#contro {
+    cursor: pointer;
+}
+
+.escuro {
+    background-color: #333;
+    transition: 1s;
+}
+
+.claro {
+    background-color: #fff;
+    transition: 1s;
+}
+
+
+/*formatação da section*/
+
+section#corpo {
+    display: block;
+    width: auto;
+    padding: 5px 20px 2px 20px;
+}
+
+h3 {
+    font-family: Helvetica;
+    font-size: 12pt;
+    text-align: auto;
+    text-indent: 0px auto auto 20px;
+}
+
+.info {
+    color: purple;
+}
+
+.obj {
+    color: blue;
+}
+
+.qual {
+    color: green;
+}
+
+.for {
+    color: rgb(246, 230, 3);
+}
+
+.idio {
+    color: rgb(245, 160, 3);
+}
+
+.ma {
+    color: rgba(253, 0, 0, 0.835);
+}
+
+
+/* formatação do footer*/
+
+footer#rodape {
+    display: block;
+    width: auto;
+    border-top: 1px rgba(0, 0, 0, 0.15) solid;
+    padding: 5px 20px 2px 20px;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 10pt;
+}
+
+footer#rodape a {
+    text-decoration: none;
+    transition: 1s;
+}
+
+footer#rodape a:hover {
+    text-decoration: underline;
+}
+
+section#controles {
+    display: block;
+    width: auto;
+    float: right;
+    display: block;
+    list-style: none;
+    text-transform: uppercase;
+    position: auto;
+    left: auto;
+}
